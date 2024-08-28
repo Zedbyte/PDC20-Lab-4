@@ -16,7 +16,7 @@ function Dashboard({user}) {
             ) : (
             
                 <div>
-                    <h1>Guest Dashboard</h1>
+                    <h1>User Dashboard</h1>
                     <p>Welcome User, {user.name}!</p>
                     <button>Update profile information</button>
                     <button>Settings</button>
